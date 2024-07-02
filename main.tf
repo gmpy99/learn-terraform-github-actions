@@ -15,10 +15,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "ACG-Terraform-Demos"
+    organization = "Acidrix"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "terraform-github-actions"
     }
   }
 }
